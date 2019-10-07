@@ -1,63 +1,40 @@
-*{
-  box-sizing: border-box;
-}
-
-.btn-box, .link-box, .box-title{
-  text-align: center;
-}
-
-.btn, .list-link{
-  width: 250px;
-  display: inline-block;
-  padding: 50px 0px;
-  border-radius: 5px;
-  border: 1px solid #000000;
+.btn, .list-link {
+  width: 350px;
   color: #ffffff;
-  text-decoration: none;
-  text-align: center;
-  font-size: 32px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-.google, .article3{
+.google, .article3 {
   background-color: #ff0000;
 }
-.yahoo, .article1{
+
+.yahoo, .article1 {
   background-color: #00ff00;
 }
 
-.bing, .article2{
+.bing, .article2 {
   background-color: #0000ff;
 }
 
-.btn:visited, .list-link:visited{
+.btn:visited, .list-link:visited {
   opacity: 0.2;
 }
 
-.btn:hover, .list-link:hover{
+.btn:hover, .list-link:hover {
   opacity: 0.5;
 }
 
-.google:active, .sixdollar:active{
+.google:active, .sixdollar:active {
   background-color: #0000ff;
 }
-.yahoo:active, .qwertee:active{
+
+.yahoo:active, .qwertee:active {
   background-color: #ff0000;
 }
 
-.bing:active, .mydealz:active{
+.bing:active, .mydealz:active {
   background-color: #00ff00;
 }
 
 .list-box, .list-item {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 0;
   list-style: none;
-  text-align: center;
-}
-
-.list-box{
-  display: block;
-  padding: 4px 0px;
 }
